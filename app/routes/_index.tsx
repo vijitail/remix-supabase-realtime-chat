@@ -7,7 +7,7 @@ import type { Message, OutletContext } from "~/types";
 import { createSupabaseServerClient } from "~/utils/supabase.server";
 
 export const meta: V2_MetaFunction = () => {
-  return [{ title: "New Remix App" }];
+  return [{ title: "Remix Supabase Realtime Chat" }];
 };
 
 export const action = async ({ request }: ActionArgs) => {
